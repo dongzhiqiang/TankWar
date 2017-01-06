@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012160439120}
   - 114: {fileID: 114000011365822250}
+  - 114: {fileID: 114000010953060472}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -40,6 +41,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &114000010953060472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013481812936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 208
+    i1: 200
+    i2: 2
+    i3: 244
+    i4: 30
+    i5: 194
+    i6: 98
+    i7: 36
+    i8: 41
+    i9: 37
+    i10: 232
+    i11: 228
+    i12: 74
+    i13: 255
+    i14: 166
+    i15: 199
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114000011365822250
 MonoBehaviour:
   m_ObjectHideFlags: 1

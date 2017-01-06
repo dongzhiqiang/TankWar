@@ -11,6 +11,8 @@ GameObject:
   - 54: {fileID: 5470280}
   - 65: {fileID: 6594302}
   - 114: {fileID: 114000011901014096}
+  - 114: {fileID: 114000010031308138}
+  - 114: {fileID: 114000014014717644}
   m_Layer: 8
   m_Name: TankFree
   m_TagString: Untagged
@@ -685,6 +687,38 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114000010031308138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 243
+    i1: 10
+    i2: 214
+    i3: 54
+    i4: 149
+    i5: 194
+    i6: 117
+    i7: 4
+    i8: 184
+    i9: 194
+    i10: 170
+    i11: 135
+    i12: 86
+    i13: 74
+    i14: 108
+    i15: 204
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114000010106461960
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -948,6 +982,26 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114000014014717644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0.095
+  m_SyncRotationAxis: 2
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.01
+  m_SnapThreshold: 2
+  m_InterpolateRotation: 10
+  m_InterpolateMovement: 1
 --- !u!212 &212000013738597218
 SpriteRenderer:
   m_ObjectHideFlags: 1
